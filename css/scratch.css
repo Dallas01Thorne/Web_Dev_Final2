@@ -1,0 +1,86 @@
+/* scratch.css - custom styles ONLY for scratch.html */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #020617;
+  color: #e5e7eb;
+}
+
+/* Simple centered layout */
+
+.page-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 80px 16px 40px;
+}
+
+/* Basic nav */
+
+.page-nav {
+  background: #030712;
+  border-bottom: 1px solid #1f2937;
+  padding: 10px 16px;
+  position: sticky;
+  top: 0;
+}
+
+.page-nav a {
+  color: #9ca3af;
+  margin-right: 14px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.page-nav a:hover {
+  color: #f9fafb;
+}
+
+/* Content blocks */
+
+.block {
+  border-radius: 16px;
+  padding: 18px 20px;
+  background: #0b1120;
+  border: 1px solid #1f2937;
+  margin-bottom: 18px;
+}
+
+.block h2 {
+  margin-top: 0;
+}
+
+/* Divs for positioning demo */
+
+.layout-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.layout-col {
+  flex: 1 1 260px;
+}
+
+/* Anchor target */
+
+#top-of-scratch {
+  scroll-margin-top: 70px;
+}
+
+/* Simple footer */
+
+.page-footer {
+  border-top: 1px solid #1f2937;
+  padding: 12px 16px 24px;
+  font-size: 0.8rem;
+  color: #9ca3af;
+  text-align: center;
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Résumé | Dallas Thorne</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="nav-inner">
+    <div class="brand">
+      <div class="brand-mark"></div>
+      <span>DALLAS THORNE</span>
+    </div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="resume.html">Résumé</a>
+      <a href="scratch.html">Scratch Page</a>
+      <a href="quiz.html">Cowboys Quiz</a>
+    </nav>
+  </div>
+</header>
+
+<main class="main-layout">
+  <section class="section">
+    <div class="section-header">
+      <h1 class="section-title">Résumé</h1>
+      <p class="section-subtitle">Pre-Business student · Sales professional · BYU</p>
+    </div>
+
+    <div class="card-grid">
+      <article class="card">
+        <h3>Summary</h3>
+        <p>
+          Pre-business student at Brigham Young University with 4+ years of sales and customer
+          service experience. Consistently a top performer in membership and door-to-door sales.
+          Strong communicator who enjoys working with people, learning new tools, and finding ways
+          to create value for customers and teams.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>Personal</h3>
+        <p>
+          From Gilbert, Arizona · 20 years old · Enjoys time with friends and family, sports
+          (football, basketball, golf), and snowboarding.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <h2 class="section-title">Education</h2>
+    </div>
+    <div class="card">
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>Brigham Young University – Pre-Business</h3>
+          <p class="section-subtitle">Provo, Utah</p>
+          <p>
+            Currently enrolled in the pre-business program and completing core courses such as
+            Information Systems (IS&nbsp;201), statistics, and general education requirements.
+          </p>
+        </div>
+        <div class="timeline-item">
+          <h3>Higley High School</h3>
+          <p class="section-subtitle">Gilbert, Arizona</p>
+          <p>
+            Graduated in the top 10% of class with a 4.3 GPA. Involved in academics and activities
+            while working part-time in sales.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <h2 class="section-title">Experience</h2>
+    </div>
+    <div class="card">
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>Server – Steakhouse</h3>
+          <p class="section-subtitle">Current · ~3 months</p>
+          <p>
+            Provide high-touch table service in a fast-paced environment. Communicate clearly with
+            guests, manage multiple tables at once, and coordinate with kitchen staff to deliver a
+            positive experience.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <h3>Door-to-Door Sales Representative – Pest Control &amp; Fiber Internet</h3>
+          <p class="section-subtitle">2 summers</p>
+          <p>
+            Spent two summers doing door-to-door sales—one selling pest control services and one
+            selling fiber internet. Developed strong skills in cold-approach conversations,
+            objection handling, and closing deals in a high-rejection environment.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <h3>Membership Sales – Carwash</h3>
+          <p class="section-subtitle">2 years in high school</p>
+          <p>
+            Sold monthly memberships at a carwash and was the top salesman in the company for an
+            extended period of time. Learned to build quick rapport, explain value clearly, and
+            hit aggressive sales targets.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <h3>Customer Service Representative – Bulwark Pest Control</h3>
+          <p class="section-subtitle">7 months · Early high school</p>
+          <p>
+            Assisted customers over the phone, scheduled appointments, and resolved concerns.
+            Developed a foundation in professional communication and problem solving.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <h2 class="section-title">Skills</h2>
+    </div>
+    <div class="card">
+      <h3>Business &amp; Technical</h3>
+      <div class="tag-list">
+        <span class="tag">Database design &amp; ER diagramming</span>
+        <span class="tag">Structured Query Language (SQL)</span>
+        <span class="tag">Tableau dashboards</span>
+        <span class="tag">Excel Solver</span>
+        <span class="tag">Pivot Tables &amp; Charts</span>
+        <span class="tag">HTML &amp; CSS</span>
+        <span class="tag">Basic Bootstrap</span>
+        <span class="tag">Flowchart diagramming</span>
+        <span class="tag">VBA in Excel (intro)</span>
+      </div>
+
+      <h3 style="margin-top:16px;">Sales &amp; People</h3>
+      <div class="tag-list">
+        <span class="tag">Membership sales</span>
+        <span class="tag">Door-to-door sales</span>
+        <span class="tag">Customer service</span>
+        <span class="tag">Teamwork</span>
+        <span class="tag">Communication</span>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="section-header" style="margin-bottom:0;">
+      <span>&copy; <span id="year"></span> Dallas Thorne</span>
+      <span><a href="index.html">Back to home</a></span>
+    </div>
+  </footer>
+</main>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

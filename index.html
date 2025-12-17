@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dallas Thorne | Personal Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body id="top">
+  <header class="site-header">
+    <div class="nav-inner">
+      <div class="brand">
+        <div class="brand-mark"></div>
+        <span>DALLAS THORNE</span>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="resume.html">Résumé</a>
+        <a href="scratch.html">Scratch Page</a>
+        <a href="quiz.html">Cowboys Quiz</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-layout">
+    <section class="hero">
+      <div>
+        <div class="hero-badge">
+          <span></span>
+          <p>Pre-Business Student · BYU</p>
+        </div>
+        <h1>Hi, I’m Dallas Thorne.</h1>
+        <p class="hero-lead">
+          I’m a 20-year-old student from Gilbert, Arizona studying pre-business at Brigham Young University.
+          I love building people skills through sales, service, and teamwork—and I’m always looking for
+          ways to grow.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="resume.html">
+            View my résumé
+          </a>
+          <a class="btn btn-ghost" href="quiz.html">
+            Take the Cowboys quiz
+          </a>
+        </div>
+      </div>
+
+      <aside class="hero-card" aria-label="At a glance">
+        <h2>Snapshot</h2>
+        <div class="hero-pill">
+          <strong>Location</strong>
+          <span>Provo · Gilbert native</span>
+        </div>
+        <div class="hero-pill">
+          <strong>Focus</strong>
+          <span>Sales · Data · Business</span>
+        </div>
+        <div class="hero-pill">
+          <strong>Interests</strong>
+          <span>Football · Basketball · Golf · Snowboarding</span>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2 class="section-title">What I’m about</h2>
+        <p class="section-subtitle">A quick overview of my background and interests.</p>
+      </div>
+      <div class="card-grid">
+        <article class="card">
+          <h3>Student &amp; Pre-Business</h3>
+          <p>
+            I’m studying at BYU and working toward admission to the Marriott School of Business.
+            I enjoy courses that mix analytics and real-world problem solving, such as IS&nbsp;201.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Sales &amp; Service</h3>
+          <p>
+            I have over four years of sales experience—from carwash memberships and door-to-door
+            pest control and fiber internet to restaurant serving and customer support.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Life Outside Class</h3>
+          <p>
+            I love hanging out with friends and family, watching and playing sports, and getting
+            up on the mountain to snowboard whenever I get the chance.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2 class="section-title">Skills snapshot</h2>
+        <p class="section-subtitle">Tools and concepts I’ve worked with so far.</p>
+      </div>
+      <div class="card">
+        <div class="tag-list">
+          <span class="tag">Sales &amp; Persuasion</span>
+          <span class="tag">Customer Service</span>
+          <span class="tag">Database Design</span>
+          <span class="tag">SQL</span>
+          <span class="tag">Tableau</span>
+          <span class="tag">Excel &amp; Solver</span>
+          <span class="tag">Pivot Tables &amp; Charts</span>
+          <span class="tag">HTML &amp; CSS</span>
+          <span class="tag">Basic VBA</span>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="section-header" style="margin-bottom:0;">
+        <span>&copy; <span id="year"></span> Dallas Thorne</span>
+        <span>Built for IS&nbsp;201 personal website project.</span>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    // Set current year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
